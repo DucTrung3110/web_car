@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxAuto - Premium Car Dealership</title>
+    <meta name="description" content="Discover premium luxury vehicles at LuxAuto. Your trusted partner for luxury cars.">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>LuxAuto</h1>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="products.html" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products.html#luxury">Luxury Cars</a></li>
+                            <li><a href="products.html#electric">Electric Vehicles</a></li>
+                            <li><a href="products.html#sports">Sports Cars</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" class="nav-link btn-register">Register</a>
+                    </li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Discover Premium Luxury</h1>
+                <p class="hero-subtitle">Experience the finest collection of luxury vehicles crafted for excellence</p>
+                <div class="hero-buttons">
+                    <a href="products.html" class="btn btn-primary">Explore Collection</a>
+                    <a href="contact.html" class="btn btn-secondary">Schedule Test Drive</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://cdn.pixabay.com/photo/2017/04/06/22/11/car-2209439_1280.png" alt="Luxury Car Showroom" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Featured Cars Section -->
+        <section class="featured-cars">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Featured Vehicles</h2>
+                    <p>Discover our handpicked selection of premium automobiles</p>
+                </header>
+                
+                <div class="cars-grid" id="featured-cars-grid">
+                    <!-- Cars will be loaded dynamically via JavaScript -->
+                </div>
+                
+                <div class="section-footer">
+                    <a href="products.html" class="btn btn-outline">View All Vehicles</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Our Services</h2>
+                    <p>Comprehensive automotive solutions for discerning customers</p>
+                </header>
+                
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h3>Sales</h3>
+                        <p>Premium vehicles with complete documentation and warranty</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Service & Maintenance</h3>
+                        <p>Expert care from certified technicians using genuine parts</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Financing</h3>
+                        <p>Flexible financing options tailored to your needs</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Insurance</h3>
+                        <p>Comprehensive coverage for your valuable investment</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Experience Excellence</h2>
+                    <p>Watch our showroom tour and discover the LuxAuto difference</p>
+                </header>
+                
+                <div class="video-container">
+                    <video controls poster="https://pixabay.com/get/gb6624c4c5f44ff5c2af152dc1b342b52d4f9364d9cc41b99cf13110428a3e05ad7755df1269e386492e2f29120b5024fe393740f70cdc5505bdc76490d144825_1280.jpg">
+                        <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                        <p>Your browser does not support the video tag. Please upgrade to a modern browser.</p>
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Canvas Graphics Section -->
+        <section class="graphics-section">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Interactive Graphics</h2>
+                    <p>Explore our interactive car visualization</p>
+                </header>
+                
+                <div class="canvas-container">
+                    <canvas id="carCanvas" width="800" height="400"></canvas>
+                    <div class="canvas-controls">
+                        <button id="animateBtn" class="btn btn-primary">Animate Car</button>
+                        <button id="resetBtn" class="btn btn-secondary">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated</h2>
+                    <p>Get the latest news about new arrivals and exclusive offers</p>
+                    
+                    <form class="newsletter-form" id="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LuxAuto</h3>
+                    <p>Your premier destination for luxury automobiles. Experience excellence in every detail.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Insurance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Avenue, Auto City</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@luxauto.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 LuxAuto. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/canvas-graphics.js"></script>
+</body>
+</html>
